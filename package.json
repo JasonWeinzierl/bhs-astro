@@ -8,13 +8,13 @@
   "engines": {
     "node": ".node-version"
   },
+  "scripts": {
+    "prepare": "husky",
+    "commitlint": "commitlint --edit"
+  },
   "devDependencies": {
     "@commitlint/cli": "^21.2.3",
     "@commitlint/config-conventional": "^21.2.3",
     "husky": "^9.1.7"
-  },
-  "scripts": {
-    "prepare": "husky",
-    "commitlint": "commitlint --edit"
   }
 }
