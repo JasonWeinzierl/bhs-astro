@@ -18,3 +18,7 @@ astro dev --background
 ```
 
 Manage the background server with `astro dev stop`, `astro dev status`, and `astro dev logs`.
+
+## Infrastructure
+
+The infrastructure for this app is managed in: <https://github.com/JasonWeinzierl/belton-historical-society-infrastructure>
