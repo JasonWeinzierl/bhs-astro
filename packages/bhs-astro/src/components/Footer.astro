@@ -1,0 +1,20 @@
+---
+import { SITE_START_DATE } from "../consts";
+
+const startYear = SITE_START_DATE.getFullYear().toString();
+const buildYear = new Date().getFullYear().toString();
+---
+
+<footer>
+  <div>
+    <ul>
+      <li>
+        <span>Copyright</span>
+        <span> &copy; </span>
+        <time datetime={startYear}>{startYear}</time>
+        <span>&ndash;</span>
+        <time datetime={buildYear}>{buildYear}</time>
+      </li>
+    </ul>
+  </div>
+</footer>

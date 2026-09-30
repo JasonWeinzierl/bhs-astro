@@ -1,0 +1,6 @@
+{
+    "cSpell.words": [
+        "Belton"
+    ],
+    "js/ts.tsdk.path": "./packages/bhs-astro/node_modules/typescript/lib"
+}
