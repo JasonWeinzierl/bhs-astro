@@ -25,4 +25,4 @@ jobs:
           cache: yarn
 
       - run: yarn workspaces focus @bhs/astro-app
-      - run: yarn workspace @bhs/astro-app build
+      - run: yarn workspace @bhs/astro-app check
