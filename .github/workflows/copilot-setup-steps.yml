@@ -26,7 +26,7 @@ jobs:
           node-version-file: .node-version
           package-manager-cache: false
 
-      - run: yarn workspaces focus @bhs/astro-app
+      - run: yarn install --immutable
 
       - name: Install zizmor
         run: |
